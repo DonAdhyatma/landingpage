@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&family=Montserrat&family=Roboto+Slab&display=swap');
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+  width: 1100px;
+  margin: auto;
+  position: relative;
+}
+.logo a {
+  font-size: 50px;
+  font-weight: bolder;
+  float: left;
+  font-family: 'Lancelot', cursive;
+  color: #166ac9;
+}
+
+.menu {
+  float: right;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: #ffffff;
+  z-index: 1;
+  border-bottom: 1px solid #364f6b;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+#home {
+  padding-top: 4rem;
+}
+#courses {
+  padding-top: 4rem;
+}
+
+.kolom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.kolom .deskripsi {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #364f6b;
+}
+h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #364f6b;
+  width: 100%;
+  line-height: 50px;
+}
+
+a.tbl-hijau {
+  background: #166ac9;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+a.tbl-hijau:hover {
+  color: #1c2836;
+  text-decoration: none;
+}
+p {
+  margin: 5px 0px 5px 0px;
+  padding: 5px 0px 5px 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a.tbl-hijau2 {
+  background: #00d4a6;
+  border-radius: 20px;
+  padding: 8px 15px 8px 15px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+  position: relative;
+  top: 5px;
+  left: -5px;
+}
+a.tbl-hijau2:hover {
+  color: #1c2836;
+  text-decoration: none;
+}
+a.tbl-biru {
+  background: #009fd4;
+  border-radius: 20px;
+  padding: 8px 15px 8px 15px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+  position: relative;
+  top: 5px;
+  left: -5px;
+}
+a.tbl-biru:hover {
+  color: #1c2836;
+  text-decoration: none;
+}
+.tengah {
+  text-align: center;
+}
+.tutor-list {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+.kartu-tutor {
+  width: 20%;
+  margin: 0 auto;
+}
+.kartu-tutor img {
+  width: 70%;
+  border-radius: 40%;
+}
+.kartu-tutor p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+  text-align: center;
+  color: #364f6b;
+}
+.partner-list {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+.kartu-partner {
+  width: 20%;
+  margin: 0 auto;
+}
+.kartu-partner img {
+  width: 150px;
+  border-radius: 50%;
+}
+#kontak {
+  background: #c1c1c1;
+  padding: 40px 0px 10px 0px;
+}
+
+.footer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.footer-section {
+  width: 20%;
+  margin: 0 auto;
+}
+
+h3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #166ac9;
+  width: 100%;
+  line-height: 50px;
+}
+.copyright {
+  text-align: center;
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+  margin-top: 5px;
+}
+@media screen and (max-width: 900px) {
+  .wrapper {
+    width: 90%;
+  }
+  .wrapper .menu {
+    width: 100%;
+    display: flexbox;
+    top: 0;
+  }
+  .logo a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  nav .menu {
+    width: 100%;
+    margin: 0;
+  }
+  nav .menu ul {
+    text-align: center;
+    margin: auto;
+    line-height: 60px;
+  }
+  nav .menu ul li {
+    display: inline-block;
+    float: none;
+  }
+  section {
+    display: block;
+  }
+
+  section img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  div .kolom {
+    margin-top: -20px;
+  }
+  .kartu-tutor {
+    width: 40%;
+  }
+  .kolom .deskripsi {
+    margin-top: 100px;
+  }
+  .kartu-partner {
+    width: 40%;
+  }
+  .wrapper {
+    display: block;
+  }
+  .footer-section {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
